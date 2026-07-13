@@ -357,9 +357,9 @@ export default function LandingPage() {
             </section>
 
             {/* Ticket Grid Section */}
-            <section id="tickets" className="pt-32 pb-20 bg-[#030303] relative border-t border-white/[0.01]">
+            <section id="tickets" className="pt-32 max-sm:pt-16 pb-20 max-sm:pb-10 bg-[#030303] relative border-t border-white/[0.01]">
                 <div className="max-w-7xl mx-auto px-6 sm:px-8">
-                    <div className="text-center mb-24">
+                    <div className="text-center mb-24 max-sm:mb-14">
                         <h2 className="text-3xl sm:text-5xl font-heading font-extrabold uppercase tracking-tight mb-4 
                text-transparent bg-clip-text bg-gradient-to-r from-white via-white/40 to-white 
                animate-text-shimmer">
@@ -449,8 +449,8 @@ export default function LandingPage() {
             </section>
 
             {/* Advanced Contact Form with Floating Field Highlights */}
-            <section id="contact" className="py-14 bg-[#030303] border-t border-white/[0.01]">
-                <motion.div variants={itemVariants} className="text-center mb-16">
+            <section id="contact" className="py-14 max-sm:py-10 bg-[#030303] border-t border-white/[0.01]">
+                <motion.div variants={itemVariants} className="text-center mb-16 max-sm:mb-14">
                     <h2 className="text-3xl sm:text-5xl font-heading font-extrabold uppercase tracking-tight mb-4 
                text-transparent bg-clip-text bg-gradient-to-r from-white via-white/40 to-white 
                animate-text-shimmer">

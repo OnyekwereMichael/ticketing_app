@@ -84,7 +84,7 @@ export default function LandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
     const [direction, setDirection] = useState(0);
-    const [focusedField, setFocusedField] = useState<string | null>(null);
+
 
     useEffect(() => {
         const timer = setInterval(() => {
